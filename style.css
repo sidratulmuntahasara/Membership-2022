@@ -1,12 +1,22 @@
+html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+      scroll-behavior:inherit;
+  }
+
 body{
     font-family: 'Karla', sans-serif;
     letter-spacing: 1px;
+    background: #FFDD84;
 }
 
 h1.greeting{
     color: #077CD8;
     font-weight: 100px;
-    padding-top: 7%; 
+    padding-top: 15%; 
     font-size: 75px;
     letter-spacing: 5px;
 }
@@ -44,17 +54,223 @@ p.instruct{
     color: rgb(54, 54, 54);
 }
 
-div.firstque{
-    padding-top: 10%;
+/* .firstque .secondque .thirdque .fourthque{
+    width: 100vw;
+    height: 100%;
+} */
+
+.firstque{
+    width: 98vw;
+    height: 98vh;   
+    border: none;
+}
+.secondque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+.thirdque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+.fourthque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+.fifthque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+.sixthque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+.seventhque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+.eighthque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+.ninthque{
+    width: 98vw;
+    height: 98vh;
+    border: none;
+}
+
+input {
+    margin-left: 4%;
+    font-family: inherit;
+    width: 800px;
+    border: 0;
+    border-bottom: 1px solid #8ba9c0;
+    outline: 0;
+    font-size: 2rem;
+    color: #077CD8;
+    padding: 7px 0;
+    background: transparent;
+}
+
+input:focus, input:valid{
+    border-color: #077CD8;
+    transition-delay: 0.2s;
+    border-bottom: 2.5px solid;
+}
+
+input::placeholder{
+    color: #9bbad1;
+    font-weight: bold;
+    opacity: 60%;
+}
+
+.form-control::placeholder{
+    background: transparent;
 }
 
 h5.one{
+    padding-top: 50%;
     color: #077CD8;
     display: inline;
 }
 
 h2.firstques{
-    font-weight: lighter;
-    color: rgb(85, 85, 85);
+    margin-top: 50vh;
+    font-weight: 550;
+    color: rgb(39, 39, 39);
     display: inline;
+    letter-spacing: -0.5px;
+    font-size: 25px;
 }
+
+.group-one{
+    margin-top: 15%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-two{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-three{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-four{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-five{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-six{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-seven{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-eight{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.group-nine{
+    margin-top: 8%;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+p.des{
+    margin-left: 5%;
+    color: gray;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+button{
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+button.next-button{
+    background-color: #077CD8;
+    border: none;
+    margin-left: 4%;
+}
+
+button.he,.she,.other{
+    background-color: #6bbcfa ;
+    border: #077CD8;
+}
+
+button.he::selection{
+    background-color: #077CD8;
+}
+
+button.she::selection{
+    background-color: #077CD8;
+}
+
+button.other::selection{
+    background-color: #077CD8;
+}
+
+ul{
+    list-style-type: none;
+}
+
+

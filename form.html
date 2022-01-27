@@ -11,11 +11,129 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
 </head>
 <body bgcolor="#FFDD84">
-    <center>
-    <div class="firstque">
-        <h5 class="one">1 ➡</h5> <h2 class="firstques">Let's start with your <b>first name</b>. *</h2>
-        
-    </div>
-    </center>
+        <form>
+            <div class="container">
+                <div class="firstque">
+                    <div class="form-group">
+                        <div class="group-one">
+                        <h5 class="one">1 ➡</h5> <h2 class="firstques">Let's start with your <b>first name.</b> *</h2><br><br>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Type your answer here..." required>
+                        <br><br>
+                        <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <br>
+            <div class="container">
+                <div class="secondque">
+                    <div class="form-group">
+                        <div class="group-two">
+                        <h5 class="one">2 ➡</h5> <h2 class="firstques">And your <b>last name?</b> *</h2>
+                        <p class="des">If you have a middle name, do add that here.</p>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Type your answer here..." required>
+                        <br><br>
+                        <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <br>
+            <div class="container">
+                <div class="thirdque">
+                    <div class="form-group">
+                        <div class="group-three">
+                        <h5 class="one">3 ➡</h5> <h2 class="firstques">What <b>email address</b> can we reach you at? <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is only to get in touch, not to send spam. *</h2>
+                        <p class="des">We love GDPR, and GDPR loves us.</p>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="name@example.com" required>
+                        <br><br>
+                        <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <br>
+            <div class="container">
+                <div class="fourthque">
+                    <div class="form-group">
+                        <div class="group-four">
+                        <h5 class="one">4 ➡</h5> <h2 class="firstques">When is your <b>birthday?</b> *</h2><br><br>
+                        <input type="date" class="form-date" name="date" id="subject" placeholder="mm/dd/yyyy" style="width: 100%; background: transparent;" value="" required>
+                        <br><br>
+                        <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <br>
+            <div class="container">
+                <div class="fifthque">
+                    <div class="form-group">
+                        <div class="group-five">
+                        <h5 class="one">5 ➡</h5> <h2 class="firstques">Oh shoot, What are your <b>pronouns?</b> *</h2>
+                        <br>
+                        <div class="select">
+                            <!-- <select id="pronouns" name="pronouns"> -->
+                                <ul class="opt">
+                                <li><button value="he" class="he" onclick="none" style="border: 1.5px solid #077CD8;">He/him</button></li>
+                                <li><button value="she" class="she" onclick="none" style="margin-top: 8px; border: 1.5px solid #077CD8;">She/her</button></li>
+                                <li><button value="other" class="other" onclick="none" style="margin-top: 8px; border: 1.5px solid #077CD8;">Prefer not to say</button></li>
+                                </ul>
+                            <!-- </select> -->
+                        </div>
+                        <br>
+                        <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <br>
+            <div class="container">
+                <div class="sixthque">
+                    <div class="form-group">
+                        <div class="group-six">
+                        <h5 class="one">6 ➡</h5> <h2 class="firstques">Can I have your <b>current address? </b><br></h2>
+                        <p class="des">Please write in full. Street(if available), area, district, state, country</p>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Type your answer here..." required>
+                        <br><br>
+                        <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <br>
+                <div class="container">
+                    <div class="seventhque">
+                        <div class="form-group">
+                            <div class="group-seven">
+                            <h5 class="one">7 ➡</h5> <h2 class="firstques">What <b>email address</b> can we reach you at? <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is only to get in touch, not to send spam. *</h2>
+                            <p class="des">We love GDPR, and GDPR loves us.</p>
+                            <input type="tel" class="form-control" name="subject" id="subject"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                            <br><br>
+                            <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <br>
+                    
+            <div class="container">
+                <div class="eighthque">
+                    <div class="form-group">
+                    <textarea class="form-control" name="body" rows="5" placeholder="Type your answer here..." required></textarea>
+                    </div>
+                </div>
+                
+                <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                
+                <div class="text-center"> <button class="button pageclip-form__submit" type="submit">
+                <span>Submit</span>
+                </button></div>
+            </div>
+          </form>
 </body>
 </html>
