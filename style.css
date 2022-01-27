@@ -317,3 +317,8 @@ button.pageclip-form__submit{
     margin-left: 20%;
     font-size: larger;
 }
+
+.pageclip-form__submit::after{
+    height: 500px;
+    width: 500px;
+}
