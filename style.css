@@ -301,7 +301,7 @@ textarea::placeholder{
     opacity: 60%;
 }
 
-button.submit{
+button.pageclip-form__submit{
     background-color: #077CD8;
     border: none;
     margin-left: 4%;
