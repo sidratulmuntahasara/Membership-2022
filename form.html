@@ -110,7 +110,7 @@
                 <div class="seventhque">
                     <div class="form-group">                            
                         <div class="group-seven">
-                        <h5 class="one">7 ➡</h5> <h2 class="firstques">Can we exchange numbers? *</h2>
+                        <h5 class="one">7 ➡</h5> <h2 class="firstques">Can we exchange <b>numbers?</b> *</h2>
                            <p class="des">We ain’t gonna call you. No worries!</p>
                            <input type="tel" class="form-control" name="subject" id="subject" required>
                            <br><br>
@@ -124,7 +124,7 @@
                     <div class="eighthque">
                         <div class="form-group">
                             <div class="group-eight">
-                            <h5 class="one">8 ➡</h5> <h2 class="firstques">Oh what grade do you study in? *</h2>
+                            <h5 class="one">8 ➡</h5> <h2 class="firstques">Oh what <b>grade</b> do you study in? *</h2>
                             <p class="des">Also write the institution name.</p>
                             <input type="text" class="form-control" name="subject" id="subject" placeholder="Type your answer here..." required>
                             <br><br>
@@ -144,9 +144,9 @@
                         <textarea class="form-control" id="txtarea" name="body" rows="5" placeholder="Type your answer here..." required></textarea>
                         </div>
                     </div><br>
-                        <div class="text-center"> <a href="https://membership2022.netlify.app"> <button class="pageclip-form__submit" type="submit" style="margin-left: 23%;">
+                        <div class="text-center"> <button class="pageclip-form__submit" type="submit" style="margin-left: 23%;">
                         <span>Submit</span>
-                        </button></a></div>
+                        </button></div>
                     </div>
                 </div>
                 
@@ -158,7 +158,7 @@
         Pageclip.form(form, {
           onSubmit: function (event) { },
           onResponse: function (error, response) { },
-          successTemplate: '<span>Thank you!</span>'
+          successTemplate: '<span><h1>Thank you! Your response has been submitted.</h1></span>'.setAttribute{"style","width:500px;height:500px;margin-down:50px;"}
         })
         </script>
 
