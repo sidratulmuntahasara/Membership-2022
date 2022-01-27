@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STRC Membership 2022</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/intlTelInput.css">
 </head>
 <body bgcolor="#FFDD84">
-        <form>
+    <form action="https://send.pageclip.co/eiYA8nnBraqvQbFsnceE7sttRknbPFYw/form-trial" class="pageclip-form" method="post">
             <div class="container">
                 <div class="firstque">
                     <div class="form-group">
@@ -31,7 +33,7 @@
                         <div class="group-two">
                         <h5 class="one">2 ➡</h5> <h2 class="firstques">And your <b>last name?</b> *</h2>
                         <p class="des">If you have a middle name, do add that here.</p>
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Type your answer here..." required>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Type your answer here..." required>
                         <br><br>
                         <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                         </div>
@@ -45,7 +47,7 @@
                         <div class="group-three">
                         <h5 class="one">3 ➡</h5> <h2 class="firstques">What <b>email address</b> can we reach you at? <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is only to get in touch, not to send spam. *</h2>
                         <p class="des">We love GDPR, and GDPR loves us.</p>
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="name@example.com" required>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
                         <br><br>
                         <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                         </div>
@@ -92,7 +94,7 @@
                 <div class="sixthque">
                     <div class="form-group">
                         <div class="group-six">
-                        <h5 class="one">6 ➡</h5> <h2 class="firstques">Can I have your <b>current address? </b><br></h2>
+                        <h5 class="one">6 ➡</h5> <h2 class="firstques">Can I have your <b>current address? *</b><br></h2>
                         <p class="des">Please write in full. Street(if available), area, district, state, country</p>
                         <input type="text" class="form-control" name="subject" id="subject" placeholder="Type your answer here..." required>
                         <br><br>
@@ -102,13 +104,27 @@
                 </div>
             </div>
                 <br>
+            <div class="container">
+                <div class="seventhque">
+                    <div class="form-group">                            
+                        <div class="group-seven">
+                        <h5 class="one">7 ➡</h5> <h2 class="firstques">Can we exchange numbers? *</h2>
+                           <p class="des">We ain’t gonna call you. No worries!</p>
+                           <input type="tel" class="form-control" name="subject" id="subject" required>
+                           <br><br>
+                           <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                   <br>
                 <div class="container">
-                    <div class="seventhque">
+                    <div class="eighthque">
                         <div class="form-group">
-                            <div class="group-seven">
-                            <h5 class="one">7 ➡</h5> <h2 class="firstques">What <b>email address</b> can we reach you at? <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is only to get in touch, not to send spam. *</h2>
-                            <p class="des">We love GDPR, and GDPR loves us.</p>
-                            <input type="tel" class="form-control" name="subject" id="subject"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                            <div class="group-eight">
+                            <h5 class="one">8 ➡</h5> <h2 class="firstques">Oh what grade do you study in? *</h2>
+                            <p class="des">Also write the institution name.</p>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Type your answer here..." required>
                             <br><br>
                             <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                             </div>
@@ -118,22 +134,42 @@
                     <br>
                     
             <div class="container">
-                <div class="eighthque">
+                <div class="ninthque">
                     <div class="form-group">
-                    <textarea class="form-control" name="body" rows="5" placeholder="Type your answer here..." required></textarea>
+                        <div class="group-nine">
+                        <h5 class="one">8 ➡</h5> <h2 class="firstques"><b>Tell us about yourself in max 250 words. *</b></h2>
+                        <p class="des" style="width: 800px;">Also include What are your Interests? And What are you good at?</p>
+                        <textarea class="form-control" id="txtarea" name="body" rows="5" placeholder="Type your answer here..." required></textarea>
+                        </div>
+                    </div>
+                    <div class="my-3">
+                        <div class="loading" >Loading</div>
+                        <div class="error-message" ></div>
+                        <div class="sent-message" >Your message has been sent. Thank you!</div>
+                        </div><br>
+                        <div class="text-center"> <button class="submit" type="submit" style="margin-left: 23%;">
+                        <span>Submit</span>
+                        </button></div>
                     </div>
                 </div>
                 
-                <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
                 
-                <div class="text-center"> <button class="button pageclip-form__submit" type="submit">
-                <span>Submit</span>
-                </button></div>
-            </div>
           </form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    $("#txtarea").on("keyup input", function()
+    {
+        $(this).css('height','auto').css('height',this.scrollHeight+(this.offsetHeight - this.clientHeight));
+    });
+
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
 </body>
 </html>

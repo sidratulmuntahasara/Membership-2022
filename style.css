@@ -274,3 +274,46 @@ ul{
 }
 
 
+textarea{
+    margin-left: 4%;
+    font-family: inherit;
+    width: 800px;
+    border: 0;
+    border-bottom: 1px solid #8ba9c0;
+    outline: 0;
+    font-size: 2rem;
+    color: #077CD8;
+    padding: 7px 0;
+    background: transparent;
+    height: 50px;
+    resize: true;
+}
+
+textarea:focus, textarea:valid{
+    border-color: #077CD8;
+    transition-delay: 0.2s;
+    border-bottom: 2.5px solid;
+}
+
+textarea::placeholder{
+    color: #9bbad1;
+    font-weight: bold;
+    opacity: 60%;
+}
+
+button.submit{
+    background-color: #077CD8;
+    border: none;
+    margin-left: 4%;
+    outline: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    text-align:left;
+    display:inline-block;
+    margin-left: 20%;
+    font-size: larger;
+}
