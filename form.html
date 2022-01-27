@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/intlTelInput.css">
 </head>
 <body bgcolor="#FFDD84">
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    
     <form action="https://send.pageclip.co/eLDaQLnRtfmvgI9zDAsccADs7CMZXi3V" class="pageclip-form" method="post">
             <div class="container">
                 <div class="firstque">
@@ -151,6 +153,15 @@
                 
           </form>
 
+<script>
+            var form = document.querySelector('.pageclip-form')
+        Pageclip.form(form, {
+          onSubmit: function (event) { },
+          onResponse: function (error, response) { },
+          successTemplate: '<span>Thank you!</span>'
+        })
+        </script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <script>
@@ -164,16 +175,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
-<script>
-    var form = document.querySelector('.pageclip-form')
-Pageclip.form(form, {
-  onSubmit: function (event) { },
-  onResponse: function (error, response) { },
-  successTemplate: '<span>Thank you!</span>'
-})
-</script>
 
 </body>
 </html>
