@@ -21,7 +21,7 @@
                     <div class="form-group">
                         <div class="group-one">
                         <h5 class="one">1 ➡</h5> <h2 class="firstques">Let's start with your <b>first name.</b> *</h2><br><br>
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Type your answer here..." required>
+                        <input type="text" name="first-name" class="form-control" id="name" placeholder="Type your answer here..." required>
                         <br><br>
                         <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                         </div>
@@ -35,7 +35,7 @@
                         <div class="group-two">
                         <h5 class="one">2 ➡</h5> <h2 class="firstques">And your <b>last name?</b> *</h2>
                         <p class="des">If you have a middle name, do add that here.</p>
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Type your answer here..." required>
+                        <input type="text" name="last-name" class="form-control" id="name" placeholder="Type your answer here..." required>
                         <br><br>
                         <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                         </div>
@@ -62,7 +62,7 @@
                     <div class="form-group">
                         <div class="group-four">
                         <h5 class="one">4 ➡</h5> <h2 class="firstques">When is your <b>birthday?</b> *</h2><br><br>
-                        <input type="date" class="form-date" name="date" id="subject" placeholder="mm/dd/yyyy" style="width: 100%; background: transparent;" value="" required>
+                        <input type="date" class="form-date" name="b-date" id="subject" placeholder="mm/dd/yyyy" style="width: 100%; background: transparent;" value="" required>
                         <br><br>
                         <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                         </div>
@@ -75,18 +75,23 @@
                     <div class="form-group">
                         <div class="group-five">
                         <h5 class="one">5 ➡</h5> <h2 class="firstques">Oh shoot, What are your <b>pronouns?</b> *</h2>
+                        <br><br>
+                            <label class="radio-btn">
+                                <input class="pronouns" type="radio" name="pronouns" value="male" required>
+                                <span class="checkmark">He/him</span> 
+                              </label><br><br>
+                            
+                              <label class="radio-btn">
+                                <input class="pronouns" type="radio" name="pronouns" value="female">
+                                <span class="checkmark">She/her</span>
+                              </label><br><br>
+                            
+                              <label class="radio-btn">
+                                <input class="pronouns" type="radio" name="pronouns" value="other">
+                                <span class="checkmark">Prefer not to say</span>
+                                  </label><br><br>
                         <br>
-                        <div class="select">
-                            <!-- <select id="pronouns" name="pronouns"> -->
-                                <ul class="opt">
-                                <li><button value="he" class="he" onclick="none" style="border: 1.5px solid #077CD8;">He/him</button></li>
-                                <li><button value="she" class="she" onclick="none" style="margin-top: 8px; border: 1.5px solid #077CD8;">She/her</button></li>
-                                <li><button value="other" class="other" onclick="none" style="margin-top: 8px; border: 1.5px solid #077CD8;">Prefer not to say</button></li>
-                                </ul>
-                            <!-- </select> -->
-                        </div>
-                        <br>
-                        <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
+                        <div class="button"><button class="next-button" type="button" style="margin-left: 10%;"><span><b>OK </b>✔</span></button></div>
                         </div>
                     </div>
                 </div>
@@ -98,7 +103,7 @@
                         <div class="group-six">
                         <h5 class="one">6 ➡</h5> <h2 class="firstques">Can I have your <b>current address? *</b><br></h2>
                         <p class="des">Please write in full. Street(if available), area, district, state, country</p>
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Type your answer here..." required>
+                        <input type="text" class="form-control" name="address" id="subject" placeholder="Type your answer here..." required>
                         <br><br>
                         <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                         </div>
@@ -112,7 +117,7 @@
                         <div class="group-seven">
                         <h5 class="one">7 ➡</h5> <h2 class="firstques">Can we exchange <b>numbers?</b> *</h2>
                            <p class="des">We ain’t gonna call you. No worries!</p>
-                           <input type="tel" class="form-control" name="subject" id="subject" required>
+                           <input type="tel" class="form-control" name="tel-number" id="subject" required>
                            <br><br>
                            <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                            </div>
@@ -126,7 +131,7 @@
                             <div class="group-eight">
                             <h5 class="one">8 ➡</h5> <h2 class="firstques">Oh what <b>grade</b> do you study in? *</h2>
                             <p class="des">Also write the institution name.</p>
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Type your answer here..." required>
+                            <input type="text" class="form-control" name="grade-inst" id="subject" placeholder="Type your answer here..." required>
                             <br><br>
                             <div class="button"><button class="next-button" type="button"><span><b>OK </b>✔</span></button></div>
                             </div>
@@ -141,7 +146,7 @@
                         <div class="group-nine">
                         <h5 class="one">9 ➡</h5> <h2 class="firstques"><b>Tell us about yourself in max 250 words. *</b></h2>
                         <p class="des" style="width: 800px;">Also include What are your Interests? And What are you good at?</p>
-                        <textarea class="form-control" id="txtarea" name="body" rows="5" placeholder="Type your answer here..." required></textarea>
+                        <textarea class="form-control" id="txtarea" name="about" rows="5" placeholder="Type your answer here..." maxlength= "1250" required></textarea>
                         </div>
                     </div><br>
                         <div class="text-center"> <button class="pageclip-form__submit" type="submit" style="margin-left: 23%;">
@@ -156,7 +161,7 @@
 <script>
             var form = document.querySelector('.pageclip-form')
         Pageclip.form(form, {
-          onSubmit: function (window.location.href="mainstrc.netlify.app") {},
+          onSubmit: function (event) {},
           onResponse: function (error, response) { },
           successTemplate: window.location.href="mainstrc.netlify.app";
         })
