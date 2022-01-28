@@ -314,9 +314,13 @@ button.pageclip-form__submit{
     font-size: larger;
 }
 
-.pageclip-form__submit::after{
+.pageclip-form__success{
     height: 500px;
     width: 500px;
+}
+
+.pageclip-form__success__message{
+    background: #077CD8;
 }
 
 .radio-btn{
