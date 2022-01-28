@@ -317,13 +317,13 @@ button.pageclip-form__submit{
 .pageclip-form__success{
     height: 500px;
     width: 500px;
-    margin-bottom: 10px;
-    align-self: center;
-    display: flex;
 }
 
 .pageclip-form__success__message{
     background: #077CD8;
+    margin-bottom: 10px;
+    align-self: center;
+    display: flex;
 }
 
 .radio-btn{
