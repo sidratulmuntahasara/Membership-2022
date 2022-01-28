@@ -319,6 +319,7 @@ button.pageclip-form__submit{
     width: 500px;
     margin-bottom: 10px;
     align-self: center;
+    display: flex;
 }
 
 .pageclip-form__success__message{
