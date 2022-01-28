@@ -315,15 +315,17 @@ button.pageclip-form__submit{
 }
 
 .pageclip-form__success{
+    content: 0;
+    
     height: 500px;
-    width: 500px;
+    width: 500px;    
+    display: none;
 }
 
 .pageclip-form__success__message{
     background: #077CD8;
     margin-bottom: 10px;
     align-self: center;
-    display: flex;
 }
 
 .radio-btn{
